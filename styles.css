@@ -1,0 +1,67 @@
+body {
+  background-image: url("大钟楼.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+  margin: 0;
+}
+
+.操作面板 {
+  background-color: rgba(255, 255, 255, 0.9);
+}
+.操作面板 {
+  background-color: rgba(255, 255, 255, 0.7);
+  width: 300px;
+  padding: 30px;
+  margin-top: 50px;
+  border-radius: 20px;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(0.5px);
+}
+.输入区域 {
+  display: flex;
+  border-radius: 25px;
+  overflow: hidden;
+}
+.文字栏 {
+  flex-grow: 1;
+  border: none;
+  background-color: #f0f4f8;
+  padding: 10px 15px;
+  outline: none;
+}
+.按钮 {
+  background-color: #00c78c;
+  border: none;
+  color: white;
+  padding: 10px 15px;
+  cursor: pointer;
+}
+.清单 {
+  list-style-type: none;
+  padding: 0;
+}
+.清单 li {
+  display: flex;
+  padding: 10px 0;
+  border-bottom: 1px solid #eee;
+}
+.清单 label {
+  flex-grow: 1;
+}
+.打钩方块 {
+  margin-right: 15px;
+}
+.垃圾桶 {
+  background: none;
+  border: none;
+  cursor: pointer;
+  opacity: 0.6;
+}
+.垃圾桶:hover {
+  opacity: 1;
+}
